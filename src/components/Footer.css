@@ -1,0 +1,33 @@
+li {
+    list-style: none;
+}
+
+.footer {
+    color: #fff;
+    width: 100%;
+    margin-top: -2rem;
+    font-size: 12px;
+    background: linear-gradient(90deg, #0117aa 0%, #008dff 140%);
+}
+
+.fList-wrap {
+    width: min(80%, 1024px);
+    margin: 30px auto 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fList {
+    padding: 0;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+}
+
+.fText {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-bottom: .4rem;
+}

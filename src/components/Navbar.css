@@ -1,0 +1,37 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    height: 65px;
+    color: #fff;
+    background: linear-gradient(90deg, #0117aa 0%, #008dff 140%);
+    justify-content: center;
+    align-items: end;
+}
+
+.navContainer {
+    width: min(100%, 1024px);
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.navBtn {
+    border: none;
+    border-radius: 4px;
+    padding: 7px 12px;
+    background-color: #ffc74e;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 0px rgba(11, 61, 228, 0.65);
+}
+
+.navBtn:nth-child(2) {
+    margin-left: 10px;
+}
