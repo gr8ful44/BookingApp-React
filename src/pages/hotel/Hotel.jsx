@@ -57,7 +57,7 @@ function Hotel() {
          <Header type="list" />
          <div className="hotelContainer">
             {openSlider && (
-               <div className="slider" onClick={() => setOpenSlider(false)}>
+               <div className="slider">
                   <FontAwesomeIcon
                      icon={faXmark}
                      className="closeBtn"
