@@ -1,5 +1,5 @@
 # BookingApp-React
-Project Booking Hotel (Front-End)<br>
+Project : booking hotel app (Front-End)<br>
 
 1. มีการตกแต่ง Icon บน title ด้วย flaticon
 2. ใช้งาน react-date-range/date-fns และ react-router-dom
